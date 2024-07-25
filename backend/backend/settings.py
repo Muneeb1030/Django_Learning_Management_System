@@ -93,7 +93,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+AUTH_USER_MODEL = 'userauths.User'
 
 STATIC_URL = 'static/'
 STATICFILES_DIR = BASE_DIR / 'static'
