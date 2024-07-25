@@ -14,7 +14,7 @@ schema_view = get_schema_view(
       description="This is the API documentation for DLMS project APIs",
     #   terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(name="Muhammad Muneeb ur Rehman",email="m.muneeb.ur.rehman.2000@gmail.com"),
-      license=openapi.License(name="BSD License"),
+    #   license=openapi.License(name="MIT License"),
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
